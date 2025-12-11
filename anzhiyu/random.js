@@ -1,3 +1,3 @@
-var posts=["2025/12/09/ova靶机/","2025/12/09/Gropers-first-blog/","2025/12/09/hello-world/"];function toRandomPost(){
+var posts=["2025/12/09/hello-world/","2025/12/09/ova靶机/","2025/12/09/Gropers-first-blog/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
